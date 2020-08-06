@@ -37,7 +37,7 @@
     "prettier": "^1.19.1",
     "vue-template-compiler": "^2.6.11"
   },
-  "browserslist": [
+  "overrideBrowserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
