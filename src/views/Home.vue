@@ -2,7 +2,7 @@
  * @Author: zhangzheng
  * @Date: 2020-08-06 15:12:32
  * @LastEditors: zhangzheng
- * @LastEditTime: 2020-08-07 10:32:39
+ * @LastEditTime: 2020-08-07 10:49:03
  * @Descripttion: 
 -->
 <template>
@@ -54,7 +54,7 @@ export default {
         },
         progress => {
           console.log(progress);
-          console.log(progress.loaded / progress.total) * 100;
+          console.log((progress.loaded / progress.total) * 100);
         }
       );
     }
